@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    
+}
+
+html{
+    background-color: #101010;
+    height: 100%;
+    background-image: url(./wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+h1 {
+  color: #f1a61a;
+  width: 100%;
+  text-align: center; 
+  font-size: 60px;
+  font-family: 'Product Sans';
+  text-shadow: 0px 0px 2px #000000;
+  }
+
+
+.container{
+    margin: 40px;
+    display: inline-block;
+    /* font-family: 'Raleway'; */
+    font-family: 'Product Sans';
+    /* font-family: 'Manrope'; */
+    font-weight: bold;
+    
+}
+
+.container ol{
+    list-style-type: none;
+     
+}
+
+.container ol .containerTitle{
+    font-size: 36px;
+    margin: 0;
+}
+
+.container ol .link1, .link2, .link3, .link4, .link5{
+    font-size: 17px;
+    text-decoration: none;
+    color:#ffffff;
+    text-shadow: 0px 0px 2px #000000;
+}
+
+.container ol .item{
+    padding-top: 5px;
+    padding-left: 2px;
+}
+
+.container ol .line{
+    height: 4px;
+    width: 150px;
+}
+
+.s1Title {
+    background: linear-gradient(to right, #cbad6d, #d53369);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline; 
+}
+.s1Line{
+    background: linear-gradient(to right, #cbad6d, #d53369);
+}
+
+.s2Title {
+    background: linear-gradient(to right, #FFF94C, #004FF9);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline; 
+}
+.s2Line{
+    background: linear-gradient(to right, #FFF94C, #004FF9);
+}
+
+.s3Title {
+    background: linear-gradient(to right, #f7b733, #fc4a1a);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline; 
+}
+.s3Line{
+    background: linear-gradient(to right,  #f7b733, #fc4a1a);
+}
+
+.s4Title {
+    background: linear-gradient(to right, #6be585,#dd3e54);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline; 
+}
+.s4Line{
+    background: linear-gradient(to right,#6be585,#dd3e54);
+}
+
+.s5Title {
+    background: linear-gradient(to right, #F4D03F, #16A085);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline; 
+}
+.s5Line{
+    background: linear-gradient(to right,#F4D03F, #16A085);
+}
