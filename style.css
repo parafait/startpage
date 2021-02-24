@@ -41,7 +41,7 @@ h1 {
   .container ol{
       list-style-type: none;
       font-family: 'DM Sans', sans-serif;     
-      font-weight: 500;    
+      font-weight: Bold;    
   }
   
   .container ol .containerTitle{
